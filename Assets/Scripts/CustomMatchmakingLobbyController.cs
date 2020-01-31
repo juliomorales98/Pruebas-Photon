@@ -114,7 +114,15 @@ public class CustomMatchmakingLobbyController : MonoBehaviourPunCallbacks {
 	public void CreateRoom(){
 		Debug.Log("Creando room...");
 
+		//Validamos que tenga parámetros
+		if(string.IsNullOrEmpty(roomName) || roomSize <= 0){
+			Debug.Log("No se puede crear el room sin los parámetros necesarios.");
+			return;
+		}
+
 		RoomOptions roomOps = new RoomOptions() { IsVisible = true, IsOpen = true, MaxPlayers = (byte)roomSize };
+
+		
 		PhotonNetwork.CreateRoom(roomName, roomOps);
 	}
 
