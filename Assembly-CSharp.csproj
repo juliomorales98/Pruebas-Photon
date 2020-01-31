@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BBBE1031-3847-F184-C67B-9ADA7AFF3931}</ProjectGuid>
+    <ProjectGuid>{D6E8FD30-63AE-7139-3102-02EEB8B00D6C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,7 +62,11 @@
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
      <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
+     <Compile Include="Assets\Scripts\CustomMatchmakingLobbyController.cs" />
+     <Compile Include="Assets\Scripts\CustomMatchmakingRoomController.cs" />
+     <Compile Include="Assets\Scripts\MultiplayerScene\GameSetupController.cs" />
      <Compile Include="Assets\Scripts\NetworkController.cs" />
+     <Compile Include="Assets\Scripts\RoomButton.cs" />
      <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
      <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
      <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
@@ -234,10 +238,10 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.36f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas Photon/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas-Photon/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas Photon/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas-Photon/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/Admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
@@ -251,27 +255,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{51F46822-E619-616F-C9CD-BD1F860EEEBC}</Project>      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>    </ProjectReference>
+      <Project>{67B91F35-027F-481C-082F-9A7E1B81E317}</Project>      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>    </ProjectReference>
     <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{0E585B64-D6BF-D053-3A2C-4A582AE7E1BC}</Project>      <Name>PunDemos.DemoHubEditor</Name>    </ProjectReference>
+      <Project>{A50F2568-A1DC-7C3A-8423-DE74E405A074}</Project>      <Name>PunDemos.DemoHubEditor</Name>    </ProjectReference>
     <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{E8E6E69E-CF50-E6FD-D0FB-F7F438CF769E}</Project>      <Name>PunDemos.DemoSlotcarEditor</Name>    </ProjectReference>
+      <Project>{EDC1F6D2-2C90-097B-BDE1-D3C3B45ABCF5}</Project>      <Name>PunDemos.DemoSlotcarEditor</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{BD49792F-45EF-D748-3C33-E20A6CBE26BF}</Project>      <Name>PhotonUnityNetworking.Demos</Name>    </ProjectReference>
+      <Project>{44993D61-3E0A-0A41-BB16-EA06DA1319B6}</Project>      <Name>PhotonUnityNetworking.Demos</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{8FF157F7-4137-30F8-04E6-25FA630488E9}</Project>      <Name>PhotonUnityNetworking.Utilities</Name>    </ProjectReference>
+      <Project>{69718D0A-34B5-89B4-5A7A-0BF062F7FEFE}</Project>      <Name>PhotonUnityNetworking.Utilities</Name>    </ProjectReference>
     <ProjectReference Include="PhotonWebSocket.csproj">
-      <Project>{1FAB3019-87F3-B415-0BF1-81BD089F63F8}</Project>      <Name>PhotonWebSocket</Name>    </ProjectReference>
+      <Project>{CE10C0A9-9136-D583-C192-42BDC1059A10}</Project>      <Name>PhotonWebSocket</Name>    </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{3DFDBDE2-4F01-9979-B5D4-A2AD03059CFB}</Project>      <Name>PhotonRealtime</Name>    </ProjectReference>
+      <Project>{82F76EDF-9B15-A2C3-4911-8727D6790939}</Project>      <Name>PhotonRealtime</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{18727761-C58E-0E10-A1D6-DE7AAED83D04}</Project>      <Name>PhotonUnityNetworking</Name>    </ProjectReference>
+      <Project>{6264A685-D3F9-AFF5-755C-5D7450D0101C}</Project>      <Name>PhotonUnityNetworking</Name>    </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
-      <Project>{6C1E3F7C-8A70-9AD6-AB8B-7BB28554C573}</Project>      <Name>PhotonChat</Name>    </ProjectReference>
+      <Project>{B08B7682-6D9E-29FF-6F5F-A91DC2221BCE}</Project>      <Name>PhotonChat</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{0856CBDF-244D-A89E-4DC5-4CB268F15B56}</Project>      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>    </ProjectReference>
+      <Project>{82004410-F159-F3AB-0CDE-016FEFCE5F24}</Project>      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{68BD0BC2-760C-33AC-4ADA-E635560C2EE8}</Project>      <Name>PhotonUnityNetworking.Editor</Name>    </ProjectReference>
+      <Project>{7745417D-8D20-9794-3901-132519C2BD02}</Project>      <Name>PhotonUnityNetworking.Editor</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

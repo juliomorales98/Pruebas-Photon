@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8FF157F7-4137-30F8-04E6-25FA630488E9}</ProjectGuid>
+    <ProjectGuid>{69718D0A-34B5-89B4-5A7A-0BF062F7FEFE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonUnityNetworking.Utilities</AssemblyName>
@@ -281,10 +281,10 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.36f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas Photon/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas-Photon/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas Photon/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas-Photon/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/Admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -307,9 +307,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{3DFDBDE2-4F01-9979-B5D4-A2AD03059CFB}</Project>      <Name>PhotonRealtime</Name>    </ProjectReference>
+      <Project>{82F76EDF-9B15-A2C3-4911-8727D6790939}</Project>      <Name>PhotonRealtime</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{18727761-C58E-0E10-A1D6-DE7AAED83D04}</Project>      <Name>PhotonUnityNetworking</Name>    </ProjectReference>
+      <Project>{6264A685-D3F9-AFF5-755C-5D7450D0101C}</Project>      <Name>PhotonUnityNetworking</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E8E6E69E-CF50-E6FD-D0FB-F7F438CF769E}</ProjectGuid>
+    <ProjectGuid>{EDC1F6D2-2C90-097B-BDE1-D3C3B45ABCF5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PunDemos.DemoSlotcarEditor</AssemblyName>
@@ -257,10 +257,10 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.36f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas Photon/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas-Photon/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas Photon/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas-Photon/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/Admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -283,7 +283,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{BD49792F-45EF-D748-3C33-E20A6CBE26BF}</Project>      <Name>PhotonUnityNetworking.Demos</Name>    </ProjectReference>
+      <Project>{44993D61-3E0A-0A41-BB16-EA06DA1319B6}</Project>      <Name>PhotonUnityNetworking.Demos</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

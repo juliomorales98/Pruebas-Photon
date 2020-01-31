@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6C1E3F7C-8A70-9AD6-AB8B-7BB28554C573}</ProjectGuid>
+    <ProjectGuid>{B08B7682-6D9E-29FF-6F5F-A91DC2221BCE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonChat</AssemblyName>
@@ -266,10 +266,10 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.36f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas Photon/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas-Photon/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas Photon/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas-Photon/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/Admin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -292,7 +292,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonWebSocket.csproj">
-      <Project>{1FAB3019-87F3-B415-0BF1-81BD089F63F8}</Project>      <Name>PhotonWebSocket</Name>    </ProjectReference>
+      <Project>{CE10C0A9-9136-D583-C192-42BDC1059A10}</Project>      <Name>PhotonWebSocket</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
