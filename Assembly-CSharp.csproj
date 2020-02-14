@@ -64,6 +64,8 @@
      <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
      <Compile Include="Assets\Scripts\CustomMatchmakingLobbyController.cs" />
      <Compile Include="Assets\Scripts\CustomMatchmakingRoomController.cs" />
+     <Compile Include="Assets\Scripts\MultiplayerScene\CameraController.cs" />
+     <Compile Include="Assets\Scripts\MultiplayerScene\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\MultiplayerScene\GameSetup.cs" />
      <Compile Include="Assets\Scripts\MultiplayerScene\GameSetupController.cs" />
      <Compile Include="Assets\Scripts\MultiplayerScene\PhotonPlayer.cs" />

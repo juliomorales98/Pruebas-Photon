@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour {
 	public float movementSpeedMio;
 	public float rotationSpeedMio;
 
+	private GameObject avatar;
+
 	// Use this for initialization
 	void Start () {
 		PV = GetComponent<PhotonView>();
@@ -19,6 +21,7 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(PV.IsMine){
+			Debug.Log("Is Mine");
 			BasicMovement();
 			BasicRotation();
 		}
@@ -27,18 +30,22 @@ public class PlayerMovement : MonoBehaviour {
 	void BasicMovement(){
 		if(Input.GetKey(KeyCode.W)){
 			myCC.Move(transform.forward * Time.deltaTime * movementSpeedMio);
+			Debug.Log("w");
 		}
 
 		if(Input.GetKey(KeyCode.A)){
 			myCC.Move(-transform.right * Time.deltaTime * movementSpeedMio);
+			Debug.Log("a");
 		}
 
 		if(Input.GetKey(KeyCode.S)){
 			myCC.Move(-transform.forward * Time.deltaTime * movementSpeedMio);
+			Debug.Log("s");
 		}
 
 		if(Input.GetKey(KeyCode.D)){
 			myCC.Move(transform.right * Time.deltaTime * movementSpeedMio);
+			Debug.Log("d");
 		}
 	}
 

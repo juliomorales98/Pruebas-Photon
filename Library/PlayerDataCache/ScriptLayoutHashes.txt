@@ -195,7 +195,7 @@ c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo
 c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.CurrentRoomEmptyRoomTtlProperty
 bdabaa7ade8c0d93222207f74a10d53a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.RegionListCell
 c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.IsConnectedProperty
-f81c6c059587ce303d47706827dcbb1f PhotonUnityNetworking.dll:Photon.Pun.ServerSettings
+6286792f36ea7890f499f71e9704b41e PhotonUnityNetworking.dll:Photon.Pun.ServerSettings
 e7f268767823a8cd19911699aa31f1ea PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.GameVersionProperty
 fb2ac97018c2c9b8b721d1a47fc40206 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.PunBasics.Launcher
 8f8366f0522d35b7b7e9eebf3181bf1c PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.Forms.SetRoomCustomPropertyUIForm
@@ -256,6 +256,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 ee8540d1efea9148410a914295c889e3 PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.OnJoinedInstantiate
 fe180736ec3bd9cf69fd20bbec04acfb PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.PunBasics.LoaderAnime
 d28ceb61785754e7d5567286586392b7 PhotonUnityNetworking.Demos.dll:.ScoreHelper
+df07e5cbd4f21193b74ae95a62cc842b Assembly-CSharp.dll:.PlayerMovement
 e431d31333ee8da538bb41a55aca1f3e PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.SlotRacer.SlotLanes
 8f8366f0522d35b7b7e9eebf3181bf1c PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.IntInputField
 6b7f3b627f03aa2dae54ad0ecb0a7d7a PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.PhotonLagSimulationGui
@@ -282,7 +283,7 @@ e871a8cc552d2e139870f2a2ec59430d PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo
 c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.CurrentRoomAutoCleanupProperty
 30430b73cd4c104347de45dc3a0518a3 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.FriendListView
 c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.CurrentRoomPlayerCountProperty
-80f35ef009fd808931c3d146757a9586 PhotonUnityNetworking.dll:Photon.Pun.PhotonView
+aad57787e40999567e08289d921727bc PhotonUnityNetworking.dll:Photon.Pun.PhotonView
 c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.OfflineModeProperty
 6c9a3f283c4ff6c66327e69fe884e017 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Asteroids.PlayerListEntry
 e4d8d0426924417c1d988bac856764b4 PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.PlayerNumbering
@@ -296,4 +297,5 @@ d9a45f500670681f30ff59a69a580fa0 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo
 fb262b2ac14e89c3b1fd066d3ef7cca0 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.Forms.UserIdUiForm
 c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.CountOfRoomsProperty
 554c18f8fffc91699e4426d05cdb16da PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Asteroids.LobbyTopPanel
-df07e5cbd4f21193b74ae95a62cc842b Assembly-CSharp.dll:.PlayerMovement
+df07e5cbd4f21193b74ae95a62cc842b Assembly-CSharp.dll:.CameraMovement
+76119242f799591c84bce8d3be04eee2 Assembly-CSharp.dll:.CameraController
