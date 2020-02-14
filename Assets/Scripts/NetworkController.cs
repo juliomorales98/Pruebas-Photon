@@ -14,5 +14,6 @@ public class NetworkController : MonoBehaviourPunCallbacks {
 	public override void OnConnectedToMaster(){
 		//Nos dice a qué región estamos conectados
 		Debug.Log("Conectados a " + PhotonNetwork.CloudRegion + " server");
+		PhotonNetwork.AutomaticallySyncScene = true;
 	}
 }
