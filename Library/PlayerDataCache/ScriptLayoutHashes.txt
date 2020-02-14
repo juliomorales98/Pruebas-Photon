@@ -294,3 +294,5 @@ d9a45f500670681f30ff59a69a580fa0 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo
 fb262b2ac14e89c3b1fd066d3ef7cca0 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.Forms.UserIdUiForm
 c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.CountOfRoomsProperty
 554c18f8fffc91699e4426d05cdb16da PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Asteroids.LobbyTopPanel
+a63e663e10ce8822a854240d26822a31 Assembly-CSharp.dll:.PhotonPlayer
+37a8ca02f5f774df7d02876280b2816b Assembly-CSharp.dll:.GameSetup
