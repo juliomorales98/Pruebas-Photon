@@ -8,6 +8,8 @@ public class PhotonPlayer : MonoBehaviour {
 
 	private PhotonView PV;
 	public GameObject myAvatar;
+	
+
 	// Use this for initialization
 	void Start () {
 		PV = GetComponent<PhotonView>();
@@ -24,7 +26,7 @@ public class PhotonPlayer : MonoBehaviour {
 			0);
 			
 			Camera.SetupCurrent() = */
-
+			/*
 			GameObject camera = GameObject.FindWithTag ("MainCamera");
 			if (camera != null)
 			{
@@ -32,7 +34,7 @@ public class PhotonPlayer : MonoBehaviour {
 				if (followScript != null){
 					followScript.target = myAvatar;
 				}
-			}
+			}*/
 			
 		}
 	}
