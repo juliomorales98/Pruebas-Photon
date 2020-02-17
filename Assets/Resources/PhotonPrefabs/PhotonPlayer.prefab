@@ -53,6 +53,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myAvatar: {fileID: 0}
+  myCharacter: {fileID: 0}
+  characterValue: 0
 --- !u!114 &114755945354990952
 MonoBehaviour:
   m_ObjectHideFlags: 1

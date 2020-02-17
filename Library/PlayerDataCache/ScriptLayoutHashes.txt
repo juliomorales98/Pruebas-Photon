@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-A:/Unity/Projects/Pruebas-Photon/Build/game.exe
+C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas-Photon/Build/game.exe
 SceneListBegin?
 Assets/Scenes/Main.unity
 Assets/Scenes/MultiplayerScene.unity
@@ -71,7 +71,7 @@ c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.IgnoreUiRaycastWhenInactive
 79faa3d65f06fd0a6111fd24966956f5 Assembly-CSharp.dll:.ChatAppIdCheckerUI
 c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.PingProperty
-a63e663e10ce8822a854240d26822a31 Assembly-CSharp.dll:.PhotonPlayer
+602d7287a2fcf20cfe17acc6f7670fa3 Assembly-CSharp.dll:.PhotonPlayer
 977c873f67252ed523aa425f8e3d6284 PhotonRealtime.dll:Photon.Realtime.ConnectionHandler
 76119242f799591c84bce8d3be04eee2 Assembly-CSharp.dll:.CameraController
 7b599feab784e5ef6cfe76ebd2556cca PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.PlayerDetailsController
@@ -299,3 +299,6 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
+a16f5484a87fe4af7b07b4eb73fd1fdc Assembly-CSharp.dll:.PlayerInfo
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MenuController
+8dbacfd20a85e5dc05a5e4d26a055318 Assembly-CSharp.dll:.AvatarSetup

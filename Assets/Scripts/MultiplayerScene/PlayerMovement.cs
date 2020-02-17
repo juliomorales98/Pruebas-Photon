@@ -20,34 +20,15 @@ public class PlayerMovement : MonoBehaviour {
 	void Start () {
 		PV = GetComponent<PhotonView>();
 		myCC = GetComponent<CharacterController>();
-		Debug.Log(transform.GetChild(1));
-		camera = transform.GetChild(1).GetComponent<Camera>();
-		camera.enabled = false;
-		camera.enabled = true;
 		
-		mainCamera = Camera.main;
-		if(!PV.IsMine){
-			Destroy(mainCamera);
-			Debug.Log("Destruyó camara");
-		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if(PV.IsMine){
-			//Debug.Log("Is Mine");
-			camera.enabled = false;
-			camera.enabled = true;
+			
 			BasicMovement();
 			BasicRotation();
-		}else{
-			/*foreach( GameObject c in GameObject.FindGameObjectsWithTag("MainCamera")){
-				if(c != transform.GetChild(1)){
-					Destroy(c);
-					break;
-				}
-			}*/
-			//Destroy(GameObject.FindGameObjectsWithTag("MainCamera"));
 		}
 	}
 

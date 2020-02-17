@@ -14,7 +14,7 @@
        
         // Update is called once per frame
         void LateUpdate () {
-            if (target != null){
+             if (target != null){
                 transform.position = target.transform.position + offset + HeightPos;
                 transform.rotation = target.transform.rotation;
             }
