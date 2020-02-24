@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas-Photon/Build/game.exe
+F:/Build/game.exe
 SceneListBegin?
 Assets/Scenes/Main.unity
 Assets/Scenes/MultiplayerScene.unity
@@ -27,7 +27,9 @@ e7f268767823a8cd19911699aa31f1ea PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo
 28b9635dada29d5334975a74e5429ae3 PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.GraphicToggleIsOnTransition
 c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.CurrentRoomMaxPlayersProperty
 b027659a510ae8d01d6d5f31baf9827a PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.PhotonStatsGui
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Chat
 b646916c78b48f3208cda1a75aff4d8f Assembly-CSharp.dll:.ChatGui
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SyncChat
 b0e6f931f4c3163843d44b8ebc9f254a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.LayoutElementMatchSize
 4b46cecd59f2a619ae8f720821af6f33 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.PunBasics.PlayerAnimatorManager
 c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.CurrentRoomIsOpenProperty
@@ -171,7 +173,7 @@ f38b4174afba90de97222f07433382a3 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo
 a16f5484a87fe4af7b07b4eb73fd1fdc Assembly-CSharp.dll:.PlayerInfo
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Photon.Chat.UtilityScripts.EventSystemSpawner
 03a5c77a43c0e59b697d418445dd431c PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.OnClickInstantiate
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NetworkController
+fc8c929512c8cf7e628e9983347a02fb Assembly-CSharp.dll:.NetworkController
 c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.CloudRegionProperty
 2076edc8fa3c8b9afea5c90c357b89f1 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Asteroids.PlayerOverviewPanel
 5f1ee95103896e75aa6e6b415add844b Assembly-CSharp.dll:.ChannelSelector
@@ -302,5 +304,3 @@ d9a45f500670681f30ff59a69a580fa0 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo
 fb262b2ac14e89c3b1fd066d3ef7cca0 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.Forms.UserIdUiForm
 c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.CountOfRoomsProperty
 554c18f8fffc91699e4426d05cdb16da PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Asteroids.LobbyTopPanel
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Chat
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SyncChat
