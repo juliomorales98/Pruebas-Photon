@@ -21,8 +21,7 @@ public class Chat : MonoBehaviour{
 		myPV = gameObject.GetComponent<PhotonView>();
 		foreach(GameObject go in GameObject.FindGameObjectsWithTag("ChatObject")){
 			if(go.name == "Messages")
-				messages = go.GetComponent<Text>();
-				
+				messages = go.GetComponent<Text>();				
 			
 			if(go.name == "msgInputField"){
 				msgInput = go.GetComponent<InputField>();
