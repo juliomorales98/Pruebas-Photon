@@ -77,6 +77,7 @@
      <Compile Include="Assets\Scripts\NetworkController.cs" />
      <Compile Include="Assets\Scripts\PlayerInfo.cs" />
      <Compile Include="Assets\Scripts\RoomButton.cs" />
+     <Compile Include="Assets\Scripts\SetPanels.cs" />
      <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
      <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
      <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />

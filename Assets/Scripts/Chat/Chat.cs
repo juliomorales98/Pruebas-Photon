@@ -22,6 +22,7 @@ public class Chat : MonoBehaviour{
 		foreach(GameObject go in GameObject.FindGameObjectsWithTag("ChatObject")){
 			if(go.name == "Messages")
 				messages = go.GetComponent<Text>();
+				
 			
 			if(go.name == "msgInputField"){
 				msgInput = go.GetComponent<InputField>();
@@ -44,7 +45,9 @@ public class Chat : MonoBehaviour{
 			return;
 		message = "\n" + PhotonNetwork.NickName + ": " + msgInput.text;
 		msgInput.text = "";
+		messages.GetComponent<PhotonView>().RequestOwnership();
 		myPV.RPC("RPC_AddMessage", RpcTarget.AllBuffered, message);
+		
 	}
 
 	[PunRPC]
@@ -60,7 +63,7 @@ public class Chat : MonoBehaviour{
 		}
 		messages.text +=  message;
 
-		Debug.Log("Hizo rpc");
-		Debug.Log("Message = " + message);
+		/*Debug.Log("Hizo rpc");
+		Debug.Log("Message = " + message);*/
 	}
 }

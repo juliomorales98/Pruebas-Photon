@@ -634,6 +634,11 @@ namespace Photon.Pun
             }
         }
 
+        //mio
+        public object[] M_GetReadData(){
+            return readData;
+        }
+
         public void SetReadStream(object[] incomingData, int pos = 0)
         {
             this.readData = incomingData;
@@ -703,6 +708,8 @@ namespace Photon.Pun
 
             this.writeData.Add(obj);
         }
+
+        
 
         [Obsolete("writeData is a list now. Use and re-use it directly.")]
         public bool CopyToListAndClear(List<object> target)

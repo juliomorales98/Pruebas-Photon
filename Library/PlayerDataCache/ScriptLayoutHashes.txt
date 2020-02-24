@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-F:/Build/game.exe
+C:/Users/Admin/Documents/ServicioSocialJulioMorales/Pruebas-Photon/Build/game.exe
 SceneListBegin?
 Assets/Scenes/Main.unity
 Assets/Scenes/MultiplayerScene.unity
@@ -304,3 +304,4 @@ d9a45f500670681f30ff59a69a580fa0 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo
 fb262b2ac14e89c3b1fd066d3ef7cca0 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.Forms.UserIdUiForm
 c3a9e82914d368e0b53a5de37fb3627a PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.CountOfRoomsProperty
 554c18f8fffc91699e4426d05cdb16da PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Asteroids.LobbyTopPanel
+ed74bb16d413a6c7eb5daada4ba63d40 Assembly-CSharp.dll:.SetPanels
